@@ -1,0 +1,146 @@
+/************* Tag Selectors /**************/
+
+body {
+    background-color: #080808;
+    text-align: center;
+    /* margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px; */
+}
+
+h1 {
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    font-size: 110px;
+    margin: 0 auto 0 auto;
+    /* color: red; */
+    color: #a1a693;
+    position: relative;
+    z-index: 1;
+    /* font-family: 'Rubik 80s Fade', cursive;*/
+    /* Embedding fonts from google apis */
+    font-family: 'Pirata One', cursive;
+}
+
+h2 {
+    /* color: #950101;
+    color #71839e */
+    color: #faa300;
+    margin: 0 auto 0 auto;
+    position: relative;
+    z-index: 1;
+    font-family: 'New Rocker', cursive;
+}
+
+h3 {
+    /* color: #950101;
+    color #71839e */
+    color: #ba100a;
+    /* margin: 0 auto 0 auto; */
+    text-align: left;
+    z-index: 1;
+    /* font-family: 'New Rocker', cursive; */
+}
+
+p {
+    color:crimson;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    text-indent: 3ch;
+    font-family: 'New Rocker', cursive;
+  }
+
+/* div {
+    background-color: #393E46;
+} */
+
+/************* Class Selectors /**************/
+
+.top-container {
+    background-color: #080808;
+    /* background-color: gray; */
+    position: relative;
+    height: 300px;
+    padding: 5%;
+}
+
+.midle-container {
+    background-color: #080808;
+
+}
+
+.bottom-container {
+    background-color:  #080808;
+}
+
+  .dragon-right {
+  position: absolute;
+  /* margin: 10px 50%; */
+  /* left: 0px; */
+  top: 10%;
+  width: 35%;
+} 
+
+  .dragon-left {
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    width: 35%;
+  }
+
+  .mountain-centered {
+    position: relative;
+    left: 0;
+    bottom: 45px;
+    width: 35%;
+  }
+
+  .wizard-right{
+    position: absolute;
+    right: -80px;
+    top: 1300px;
+    width: 15%;
+  }
+
+  .death-left{
+    position: absolute;
+    left: -100px;
+    top: 800px;
+    width: 15%;
+  }
+
+  /* .elf-center{
+    position: absolute;
+    right: 55px;
+    top: 800px
+    width: 100%;
+  } */
+
+  .elf-center {
+    background-image: url("ElfCenter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    /* right: 55px; */
+    margin: 0px auto 0px auto;
+    /* right: 80px; */
+    bottom: 900px;
+    width: 60%;
+    position: relative;
+  }
+
+  /* .elf-center-container p { */
+  ul {
+    color: #30b1f9;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+  }
+
+
+  .skill-row {
+    text-align: left;
+    /* color: #a5b2c1; */
+    color: #30b1f9;
+  }
