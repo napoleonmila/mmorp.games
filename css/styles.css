@@ -12,10 +12,11 @@ body {
 h1 {
     /* margin-top: 0px;
     margin-bottom: 0px; */
-    font-size: 110px;
+    /* font-size: 110px; */
+    font-size: 10em;
+    font-weight: bolder;
+    color: #ba100a;
     margin: 0 auto 0 auto;
-    /* color: red; */
-    color: #a1a693;
     position: relative;
     z-index: 1;
     /* font-family: 'Rubik 80s Fade', cursive;*/
@@ -24,9 +25,10 @@ h1 {
 }
 
 h2 {
-    /* color: #950101;
-    color #71839e */
+    /* color: #a1a693; */
     color: #faa300;
+    font-size: 2em;
+    font-weight: bolder;
     margin: 0 auto 0 auto;
     position: relative;
     z-index: 1;
@@ -34,26 +36,23 @@ h2 {
 }
 
 h3 {
-    /* color: #950101;
-    color #71839e */
-    color: #ba100a;
+    color: #faa300;
     /* margin: 0 auto 0 auto; */
-    text-align: left;
+    text-align: justify;
+    font-weight: lighter;
+    position: relative;
     z-index: 1;
     /* font-family: 'New Rocker', cursive; */
 }
 
-p {
-    color:crimson;
-    margin: 0 auto 0 auto;
-    text-align: left;
-    text-indent: 3ch;
-    font-family: 'New Rocker', cursive;
-  }
+ul {
+    color: #30b1f9;
+    font-size: 18px;
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+}
 
-/* div {
-    background-color: #393E46;
-} */
 
 /************* Class Selectors /**************/
 
@@ -65,59 +64,56 @@ p {
     padding: 5%;
 }
 
-.midle-container {
-    background-color: #080808;
 
+.middle-container {
+    font-family: 'Pirata One', cursive;
+    font-size: 1.2em;
+    color: #faa300;
+    z-index: 1;
+    background-color: #080808;
 }
 
 .bottom-container {
-    background-color:  #080808;
+    background-color: #080808;
 }
 
-  .dragon-right {
-  position: absolute;
-  /* margin: 10px 50%; */
-  /* left: 0px; */
-  top: 10%;
-  width: 35%;
-} 
+.dragon-right {
+    position: absolute;
+    /* margin: 10px 50%; */
+    /* left: 0px; */
+    top: 10%;
+    width: 35%;
+}
 
-  .dragon-left {
+.dragon-left {
     position: absolute;
     left: 20%;
     bottom: 5%;
     width: 35%;
-  }
+}
 
-  .mountain-centered {
+.ying-yang-centered {
     position: relative;
     left: 0;
     bottom: 45px;
     width: 35%;
-  }
+}
 
-  .wizard-right{
+.wizard-right {
     position: absolute;
     right: -80px;
     top: 1300px;
     width: 15%;
-  }
+}
 
-  .death-left{
+.death-left {
     position: absolute;
     left: -100px;
     top: 800px;
     width: 15%;
-  }
+}
 
-  /* .elf-center{
-    position: absolute;
-    right: 55px;
-    top: 800px
-    width: 100%;
-  } */
-
-  .elf-center {
+.elf-center {
     background-image: url("ElfCenter.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,19 +124,10 @@ p {
     bottom: 900px;
     width: 60%;
     position: relative;
-  }
+}
 
-  /* .elf-center-container p { */
-  ul {
-    color: #30b1f9;
-    font-size: 18px;
-    position: relative;
-    z-index: 1;
-  }
-
-
-  .skill-row {
+.skill-row {
     text-align: left;
     /* color: #a5b2c1; */
     color: #30b1f9;
-  }
+}
